@@ -498,6 +498,15 @@
     libnpm "^2.0.1"
     semver "^5.5.0"
 
+"@lerna/package@3.13.0":
+  version "3.13.0"
+  resolved "https://registry.npmjs.org/@lerna/package/-/package-3.13.0.tgz#4baeebc49a57fc9b31062cc59f5ee38384429fc8"
+  integrity sha512-kSKO0RJQy093BufCQnkhf1jB4kZnBvL7kK5Ewolhk5gwejN+Jofjd8DGRVUDUJfQ0CkW1o6GbUeZvs8w8VIZDg==
+  dependencies:
+    load-json-file "^4.0.0"
+    npm-package-arg "^6.1.0"
+    write-pkg "^3.1.0"
+
 "@lerna/package@3.7.2":
   version "3.7.2"
   resolved "https://registry.npmjs.org/@lerna/package/-/package-3.7.2.tgz#03c69fd7fb965c372c8c969165a2f7d6dfe2dfcb"
@@ -505,14 +514,6 @@
   dependencies:
     libnpm "^2.0.1"
     load-json-file "^4.0.0"
-    write-pkg "^3.1.0"
-
-"@lerna/package@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/@lerna/package/-/package-3.0.0.tgz#14afc9a6cb1f7f7b23c1d7c7aa81bdac7d44c0e5"
-  integrity sha512-djzEJxzn212wS8d9znBnlXkeRlPL7GqeAYBykAmsuq51YGvaQK67Umh5ejdO0uxexF/4r7yRwgrlRHpQs8Rfqg==
-  dependencies:
-    npm-package-arg "^6.0.0"
     write-pkg "^3.1.0"
 
 "@lerna/project@3.10.0":
@@ -533,13 +534,13 @@
     resolve-from "^4.0.0"
     write-json-file "^2.3.0"
 
-"@lerna/project@3.5.0":
-  version "3.5.0"
-  resolved "https://registry.npmjs.org/@lerna/project/-/project-3.5.0.tgz#ac5c7b3c49318552b29ccb7a471a657fd57d3091"
-  integrity sha512-uFDzqwrD7a/tTohQoo0voTsRy2cgl9D1ZOU2pHZzHzow9S1M8E0x5q3hJI2HlwsZry9IUugmDUGO6UddTjwm3Q==
+"@lerna/project@3.13.0":
+  version "3.13.0"
+  resolved "https://registry.npmjs.org/@lerna/project/-/project-3.13.0.tgz#e7d3ae16309988443eb47470c9dbf6aa8386a2ed"
+  integrity sha512-hxRvln8Dks3T4PBALC9H3Kw6kTne70XShfqSs4oJkMqFyDj4mb5VCUN6taCDXyF8fu75d02ETdTFZhhBgm1x6w==
   dependencies:
-    "@lerna/package" "^3.0.0"
-    "@lerna/validation-error" "^3.0.0"
+    "@lerna/package" "3.13.0"
+    "@lerna/validation-error" "3.13.0"
     cosmiconfig "^5.0.2"
     dedent "^0.7.0"
     dot-prop "^4.2.0"
@@ -677,19 +678,19 @@
   resolved "https://registry.npmjs.org/@lerna/timer/-/timer-3.5.0.tgz#8dee6acf002c55de64678c66ef37ca52143f1b9b"
   integrity sha512-TAb99hqQN6E3JBGtG9iyZNPq1/DbmqgBOeNrKtdJsGvIeX/NGLgUDWMrj2h04V4O+jpBFmSf6HIld6triKmxCA==
 
+"@lerna/validation-error@3.13.0":
+  version "3.13.0"
+  resolved "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-3.13.0.tgz#c86b8f07c5ab9539f775bd8a54976e926f3759c3"
+  integrity sha512-SiJP75nwB8GhgwLKQfdkSnDufAaCbkZWJqEDlKOUPUvVOplRGnfL+BPQZH5nvq2BYSRXsksXWZ4UHVnQZI/HYA==
+  dependencies:
+    npmlog "^4.1.2"
+
 "@lerna/validation-error@3.6.0":
   version "3.6.0"
   resolved "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-3.6.0.tgz#550cf66bb2ef88edc02e36017b575a7a9100d5d8"
   integrity sha512-MWltncGO5VgMS0QedTlZCjFUMF/evRjDMMHrtVorkIB2Cp5xy0rkKa8iDBG43qpUWeG1giwi58yUlETBcWfILw==
   dependencies:
     libnpm "^2.0.1"
-
-"@lerna/validation-error@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/@lerna/validation-error/-/validation-error-3.0.0.tgz#a27e90051c3ba71995e2a800a43d94ad04b3e3f4"
-  integrity sha512-5wjkd2PszV0kWvH+EOKZJWlHEqCTTKrWsvfHnHhcUaKBe/NagPZFWs+0xlsDPZ3DJt5FNfbAPAnEBQ05zLirFA==
-  dependencies:
-    npmlog "^4.1.2"
 
 "@lerna/version@3.10.8":
   version "3.10.8"
